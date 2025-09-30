@@ -14,13 +14,13 @@ export function App() {
         <Header />
         <main className="main-content">
           <Routes>
-            <Route path="/tracking-project" element={<Dashboard />} />
-            <Route path="/tracking-project/dashboard" element={<Dashboard />} />
-            <Route path="/pessoas" element={<CadastrarPessoa />} />
+            <Route path="/tracking-project" element={<Dashboard/>} />
+            <Route path="/tracking-project/dashboard" element={<Dashboard/>} />
+            <Route path="/pessoas" element={<CadastrarPessoa/>} />
 
             //################################################
             
-          <Route path="/dev" element={<Desenvolvimento />} />
+          <Route path="/dev" element={<Desenvolvimento/>} />
           </Routes>     
         </main>
       </div>
