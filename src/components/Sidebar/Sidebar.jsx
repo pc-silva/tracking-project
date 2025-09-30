@@ -33,7 +33,7 @@ const Sidebar = ({ isOpen, onClose, onPageChange, currentPage }) => {
       hasSubmenu: true,
       icon: '👥',
       submenu: [
-        { label: 'Pessoas', path: '/pessoas' }, 
+        { label: 'Pessoas', path: '/tracking-project/pessoas' }, 
         { label: 'Categoria', path: '/dev' }, 
         { label: 'Permissões', path: '/dev' }, 
         { label: 'Horários', path: '/dev' },
