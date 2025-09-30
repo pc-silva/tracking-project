@@ -14,7 +14,7 @@ export function App() {
         <Header />
         <main className="main-content">
           <Routes>
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/tracking-project" element={<Dashboard />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/pessoas" element={<CadastrarPessoa />} />
 
