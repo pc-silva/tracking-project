@@ -16,9 +16,9 @@ export function App() {
         <main className="main-content">
           <Routes>
             <Route path="/" element={<Dashboard/>} />
-            <Route path="/tracking-project/dashboard" element={<Dashboard/>} />
-            <Route path="/tracking-project/pessoas" element={<CadastrarPessoa/>} />
-            <Route path="/tracking-project/painel-de-monitoramento" element={<PainelMonitoramento/>} />
+            <Route path="/dashboard" element={<Dashboard/>} />
+            <Route path="/pessoas" element={<CadastrarPessoa/>} />
+            <Route path="/painel-de-monitoramento" element={<PainelMonitoramento/>} />
 
             //################################################
             

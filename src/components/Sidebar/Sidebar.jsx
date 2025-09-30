@@ -25,7 +25,7 @@ const Sidebar = ({ isOpen, onClose, onPageChange, currentPage }) => {
       label: 'Dashboard',
       hasSubmenu: false,
       icon: '📊',
-      path: '/tracking-project/dashboard',
+      path: '/dashboard',
     },
     {
       name: 'pessoas',
@@ -33,7 +33,7 @@ const Sidebar = ({ isOpen, onClose, onPageChange, currentPage }) => {
       hasSubmenu: true,
       icon: '👥',
       submenu: [
-        { label: 'Pessoas', path: '/tracking-project/pessoas' }, 
+        { label: 'Pessoas', path: '/pessoas' }, 
         { label: 'Categoria', path: '/dev' }, 
         { label: 'Permissões', path: '/dev' }, 
         { label: 'Horários', path: '/dev' },
@@ -46,7 +46,7 @@ const Sidebar = ({ isOpen, onClose, onPageChange, currentPage }) => {
       icon: '🚗',
       submenu: [
         { label: 'Veículos', path: '/dev' },
-        { label: 'Painel de Monitoramento', path: '/tracking-project/painel-de-monitoramento' },
+        { label: 'Painel de Monitoramento', path: '/painel-de-monitoramento' },
         { label: 'Grupos', path: '/dev' },
         { label: 'Definir Comandos de Eventos', path: '/dev' },
       ]
