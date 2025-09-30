@@ -16,7 +16,7 @@ export function App() {
           <Routes>
             <Route path="/tracking-project" element={<Dashboard/>} />
             <Route path="/tracking-project/dashboard" element={<Dashboard/>} />
-            <Route path="/pessoas" element={<CadastrarPessoa/>} />
+            <Route path="/tracking-project/pessoas" element={<CadastrarPessoa/>} />
 
             //################################################
             
