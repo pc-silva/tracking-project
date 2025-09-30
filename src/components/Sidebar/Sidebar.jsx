@@ -25,7 +25,7 @@ const Sidebar = ({ isOpen, onClose, onPageChange, currentPage }) => {
       label: 'Dashboard',
       hasSubmenu: false,
       icon: '📊',
-      path: '/dashboard',
+      path: '/tracking-project/dashboard',
     },
     {
       name: 'pessoas',
