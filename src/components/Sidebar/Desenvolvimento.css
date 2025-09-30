@@ -1,0 +1,19 @@
+.dev{
+  color: red;
+  display: flex;
+  height: calc(100vh - 6rem);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & .icon{
+    font-size: 5rem;
+  }
+  & h1{
+    font-size: 3rem;
+    color: var(--text-primary);
+  }
+  & p{
+    color: var(--text-primary);
+    font-size: 1.5rem;
+  }
+}
