@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import { HashRouter, Routes, Route, Link } from 'react-router-dom'
 
 import Header from './components/Header/Header.jsx';
 import Dashboard from './components/Dashboard/Dashboard.jsx';
@@ -10,12 +10,12 @@ import Desenvolvimento from './components/Sidebar/Desenvolvimento.jsx';
 
 export function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="app">
         <Header />
         <main className="main-content">
           <Routes>
-            <Route path="/tracking-project" element={<Dashboard/>} />
+            <Route path="/" element={<Dashboard/>} />
             <Route path="/tracking-project/dashboard" element={<Dashboard/>} />
             <Route path="/tracking-project/pessoas" element={<CadastrarPessoa/>} />
             <Route path="/tracking-project/painel-de-monitoramento" element={<PainelMonitoramento/>} />
@@ -26,6 +26,6 @@ export function App() {
           </Routes>     
         </main>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
