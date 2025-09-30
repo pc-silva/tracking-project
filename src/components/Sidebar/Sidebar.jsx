@@ -46,7 +46,7 @@ const Sidebar = ({ isOpen, onClose, onPageChange, currentPage }) => {
       icon: '🚗',
       submenu: [
         { label: 'Veículos', path: '/dev' },
-        { label: 'Painel de Monitoramento', path: '/dev' },
+        { label: 'Painel de Monitoramento', path: '/tracking-project/painel-de-monitoramento' },
         { label: 'Grupos', path: '/dev' },
         { label: 'Definir Comandos de Eventos', path: '/dev' },
       ]
